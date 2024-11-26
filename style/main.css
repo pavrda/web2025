@@ -1,0 +1,433 @@
+.container {
+  margin: auto;
+  padding: 0 30px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1340px;
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/a0a4773e60da0dec558299094ee39ea2.woff2") format("woff2"), url("./../../fonts/brockman/a0a4773e60da0dec558299094ee39ea2.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/123acc012834a3c72fabe1ac43755478.woff2") format("woff2"), url("./../../fonts/brockman/123acc012834a3c72fabe1ac43755478.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/026295f0ec6217b96d096b6765644c34.woff2") format("woff2"), url("./../../fonts/brockman/026295f0ec6217b96d096b6765644c34.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/772ede6c03ecf9d72909aa19961766cb.woff2") format("woff2"), url("./../../fonts/brockman/772ede6c03ecf9d72909aa19961766cb.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/7c45408cf64ce0691c24460f38157a53.woff2") format("woff2"), url("./../../fonts/brockman/7c45408cf64ce0691c24460f38157a53.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/5f1af9663daf24b953a42fd6f04b30ec.woff2") format("woff2"), url("./../../fonts/brockman/5f1af9663daf24b953a42fd6f04b30ec.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/04f43018bf12011bcd3e095b08ba3ea8.woff2") format("woff2"), url("./../../fonts/brockman/04f43018bf12011bcd3e095b08ba3ea8.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/1e7945d500d7724467e0724ae63ccf02.woff2") format("woff2"), url("./../../fonts/brockman/1e7945d500d7724467e0724ae63ccf02.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/c8cb2d277bfac54e0da3474bd1846d1d.woff2") format("woff2"), url("./../../fonts/brockman/c8cb2d277bfac54e0da3474bd1846d1d.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/cbed29c2c4e321db707a9727e4e14b83.woff2") format("woff2"), url("./../../fonts/brockman/cbed29c2c4e321db707a9727e4e14b83.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/332437934e11b25f732f99a928a88a36.woff2") format("woff2"), url("./../../fonts/brockman/332437934e11b25f732f99a928a88a36.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/9253c2a19b8b95889f75a9ea159be232.woff2") format("woff2"), url("./../../fonts/brockman/9253c2a19b8b95889f75a9ea159be232.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/b7a980b96df6ca3c4df2569bebde1b26.woff2") format("woff2"), url("./../../fonts/brockman/b7a980b96df6ca3c4df2569bebde1b26.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/fa97a45b674ec894013d0618b48c3a98.woff2") format("woff2"), url("./../../fonts/brockman/fa97a45b674ec894013d0618b48c3a98.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/ec9a0b599ad47a3ea492cd15af917e5e.woff2") format("woff2"), url("./../../fonts/brockman/ec9a0b599ad47a3ea492cd15af917e5e.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/bdaf2019ef67479e48182b1ff86f67ac.woff2") format("woff2"), url("./../../fonts/brockman/bdaf2019ef67479e48182b1ff86f67ac.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/79524e64453dda046a5989225b53ebf3.woff2") format("woff2"), url("./../../fonts/brockman/79524e64453dda046a5989225b53ebf3.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/ef5696fb3003a2207126d1a763d20a86.woff2") format("woff2"), url("./../../fonts/brockman/ef5696fb3003a2207126d1a763d20a86.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/dc15ffc0972ad12ceccc2b30548735bc.woff2") format("woff2"), url("./../../fonts/brockman/dc15ffc0972ad12ceccc2b30548735bc.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/ceac67e01c8acfbd2a92a5f46b84c4bb.woff2") format("woff2"), url("./../../fonts/brockman/ceac67e01c8acfbd2a92a5f46b84c4bb.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/2c3105d53f8d9dffd6e90203c4416d5f.woff2") format("woff2"), url("./../../fonts/brockman/2c3105d53f8d9dffd6e90203c4416d5f.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/46fb5bc0343c3e427b2568a5639eda8d.woff2") format("woff2"), url("./../../fonts/brockman/46fb5bc0343c3e427b2568a5639eda8d.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/a98b79f42fedde9f298c9c4ee1f9e93c.woff2") format("woff2"), url("./../../fonts/brockman/a98b79f42fedde9f298c9c4ee1f9e93c.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brockman";
+  src: url("./../../fonts/brockman/4bfd4e27d7d019253367ca1bf6442031.woff2") format("woff2"), url("./../../fonts/brockman/4bfd4e27d7d019253367ca1bf6442031.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.service-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+}
+.service-card.active:after, .service-card:hover:after {
+  content: "";
+  background: transparent linear-gradient(199deg, #8DA1C3 0%, #B3CEFA 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+.service-card.active span, .service-card:hover span {
+  color: white;
+}
+.service-card.active span svg, .service-card:hover span svg {
+  fill: white;
+}
+.service-card span {
+  color: #B3BAC6;
+}
+.service-card svg {
+  margin-left: auto;
+  fill: #B3BAC6;
+}
+
+.header {
+  padding: 2rem 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #1D1F22;
+}
+.header.scrolling {
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.05);
+  }
+}
+.header-toggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  z-index: 10;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .header-toggle {
+    display: none;
+  }
+}
+.header-toggle span {
+  display: block;
+  border-radius: 50px;
+  height: 2px;
+  width: 100%;
+  background: white;
+  transition: 0.25s ease-in-out all;
+}
+.header-toggle.active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+.header-toggle.active span:first-child {
+  transform: rotate(45deg) translate(8px, 4px);
+}
+.header-toggle.active span:last-child {
+  transform: rotate(-45deg) translate(9px, -5px);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.header-content-logo {
+  max-width: 175px;
+  z-index: 10;
+  position: relative;
+}
+@media screen and (max-width: 1300px) {
+  .header-content-logo {
+    max-width: 100px;
+  }
+}
+.header-content-menu {
+  margin-left: auto;
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .header-content-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    background: lightblue;
+    width: 100%;
+    left: 0;
+    padding-bottom: 2rem;
+    background: #1D1F22;
+    top: -100%;
+    transition: 0.25s ease-in-out top;
+    z-index: 5;
+  }
+  .header-content-menu.active {
+    top: 104px;
+  }
+}
+.header-content-menu ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1024px) {
+  .header-content-menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+.header-content-menu ul li {
+  position: relative;
+}
+.header-content-menu ul li a {
+  color: white;
+  font-size: 1.063rem;
+  position: relative;
+  display: flex;
+}
+@media screen and (max-width: 1300px) {
+  .header-content-menu ul li a {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-content-menu ul li a {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+.header-content-menu ul li a:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #ff8f20 0%, #ff3232 100%);
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.25s ease-in all;
+}
+.header-content-menu ul li a.active:after, .header-content-menu ul li a:hover:after {
+  width: 100%;
+  right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .header-content-menu ul li:last-child {
+    padding-left: 3rem;
+  }
+  .header-content-menu ul li:last-child:before {
+    content: "|";
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+    top: 50%;
+    color: #B3BAC6;
+    opacity: 0.7;
+  }
+}
+
+.btn {
+  padding: 1.1rem 2.2rem;
+  text-decoration: none;
+  outline: none;
+}
+.btn-primary {
+  background: #0187FF;
+  color: white;
+  border-radius: 50px;
+  font-size: 0.976rem;
+}
+@media screen and (max-width: 1300px) {
+  .btn-primary {
+    font-size: 0.825rem;
+  }
+}
+body {
+  font-family: "Brockman", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=main.css.map */

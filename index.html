@@ -13,210 +13,163 @@
 	<meta name="googlebot" content="index,follow,snippet,archive">
 	<meta name="category" content="Softwarové služby">
 	<meta name="webmaster" content="All: machin@machin.cz">
-	
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" type="text/css" href="owlcarousel/dist/assets/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="owlcarousel/dist/assets/owl.theme.default.min.css"> </head>
 
 	<!-- Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link  rel="stylesheet/less" href="style/main.scss" />
-	<script src="https://cdn.jsdelivr.net/npm/less@4"></script>
-	<script src="js/script.js" async defer type="text/javascript"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link  rel="stylesheet" href="style/main.css" />
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						green: '#da373d',
+						blue: '#0187FF',
+						lightBackground: "#9EA6B3",
+						tag: '#B3BAC6',
+						text: "#B3BAC6",
+						textOpacity: "rgba(179,186,198,0.3)",
+						background: "#1D1F22",
+					},
+					backgroundImage: {
+						gradientText: "linear-gradient(90deg, #ff8f20 0%, #ff3232 100%)",
+						gradientBox: "linear-gradient(199deg, #8DA1C3 0%, #B3CEFA 100%)",
+						gradientBlack: "linear-gradient(183deg, #333942 0%, #3B424D 100%)",
+						gradientActive: "linear-gradient(199deg, #8DA1C3 0%, #B3CEFA 100%)",
+						radialMarker: "radial-gradient(closest-side at 50% 50%, #4B93FF30 0%, #1D1F2230 100%)",
+						heroMobile: "url('/images/hero/hero.png')",
+					},
+					boxShadow: {
+						primaryButton: '0px 8px 25px #0187FF30',
+					},
+				}
+			}
+		}
+	</script>
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<div class="header-content">
-				<a href="" class="header-content-logo">
-					<img src="./icons/logo.svg" alt="Logo" />
-				</a>
-				<div class="header-content-menu" id="headerMenu">
-					<ul>
-						<li>
-							<a href="">
-								Nabídka
-							</a>
-						</li>
-						<li>
-							<a href="">
-								Nabídka
-							</a>
-						</li>
-						<li>
-							<a href="">
-								Nabídka
-							</a>
-						</li>
-						<li>
-							<a href="">
-								Nabídka
-							</a>
-						</li>
-						<li>
-							<a href="">
-								Nabídka
-							</a>
-						</li>
-					</ul>
+<header class="header">
+	<div class="container">
+		<div class="header-content">
+			<a href="" class="header-content-logo">
+				<img src="./icons/logo/logo.png" />
+			</a>
+			<div class="header-content-menu" id="menu-header">
+				<ul>
+					<li>
+						<a href="">Naše služby</a>
+					</li>
+					<li>
+						<a href="">Reference</a>
+					</li>
+					<li>
+						<a href="">O nás</a>
+					</li>
+					<li>
+						<a href="">Kontakt</a>
+					</li>
+					<li>
+						<a href="">Blog</a>
+					</li>
+				</ul>
+				<div>
+					<a href="" class="btn btn-primary shadow-primaryButton">Navázat spolupráci</a>
 				</div>
-				<div class="header-content-cta">
-					<a href="" class="btn-header">VÝKUP VOZIDEL</a>
-				</div>
-				<div class="header-content-contact">
-					<span>(+420) 603 849 471</span>
-					<span>info@autobazarextra.cz</span>
-				</div>
-				<button class="header-content-toggle" id="headerMenuToggle">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
 			</div>
+			<button class="header-toggle" id="toggle-header">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 		</div>
 	</div>
-	<div class="owl-carousel owl-theme homepage-slider">
-		<div class="homepage-slider-item">
-			<div class="container">
-				<div class="homepage-slider-text">
-					<h1>AUTO EXTRA</h1>
-					<p>AUTOBAZAR S PROVĚŘENÝMI VOZY</p>
-					<a href="" class="btn-banner">více o nás</a>
-				</div>
+</header>
+<div class="bg-background relative overflow-hidden">
+	<div class=" relative md:bg-heroMobile bg-no-repeat bg-contain bg-right relative z-10">
+		<div class="container relative lg:py-40 md:py-24 py-24 flex flex-col gap-12 items-start justify-start">
+			<div class="flex flex-col gap-6">
+				<h1 class="flex flex-col max-w-[1200px]">
+					<span class="inline-block max-w-fit text-white font-semibold lg:text-8xl sm:text-6xl text-4xl after:content-[''] lg:after:w-32 sm:after:w-24 after:w-8 after:flex after:h-1 lg:after:h-2 after:bg-white after:absolute after:left-full after:top-1/2 sm:after:translate-x-8 after:translate-x-4 after:-translate-y-1/2 relative">Jsme vývojáři</span>
+					<span class="bg-gradientText text-transparent bg-clip-text lg:text-8xl sm:text-6xl text-4xl  font-medium">mobilních & webových aplikací.</span>
+				</h1>
+				<p class="text-text max-w-[450px]">Jsme silný developerský tým, který má přesah do UX a designu. Naší doménou je dodávat projektově zvládnuté řešení. Komunikujeme a programujeme.</p>
 			</div>
-		</div>
-		<div class="homepage-slider-item">
-			<div class="container">
-				<div class="homepage-slider-text">
-					<h1>AUTO EXTRA</h1>
-					<p>AUTOBAZAR S PROVĚŘENÝMI VOZY</p>
-					<a href="" class="btn-banner">více o nás</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="brands">
-		<div class="container">
-			<div class="brands-content">
-				<div class="owl-carousel owl-theme brands-slider">
-					<div class="brands-item">
-						<img src="./images/brands/ford.png" alt="Ford" />
-					</div>
-					<div class="brands-item">
-						<img src="./images/brands/ford.png" alt="Ford" />
-					</div>
-					<div class="brands-item">
-						<img src="./images/brands/ford.png" alt="Ford" />
-					</div>
-					<div class="brands-item">
-						<img src="./images/brands/ford.png" alt="Ford" />
-					</div>
-					<div class="brands-item">
-						<img src="./images/brands/ford.png" alt="Ford" />
+			<div class="max-w-fit lg:absolute items-center justify-center gap-6 lg:bottom-20 bottom-0 cursor-pointer left-0 lg:left-1/2 lg:translate-x-1/2 flex flex-col">
+				<span class="text-white -rotate-90">scroll</span>
+				<div class="relative translate-x-0.5">
+					<div class=" w-0.5 bg-white h-12 opacity-70"></div>
+					<div class="absolute bg-background w-6 h-6 rounded-full top-2 -left-2.5 flex  flex items-center justify-center ">
+						<div class="w-4 h-4 bg-background border-white border-[3px] flex rounded-full"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="catalog">
-		<div class="catalog-heading">
-			<h2>AKTUÁLNÍ NABÍDKA AUTOMOBILŮ</h2>
+	<div class="absolute -left-1/2 translate-x-1/2 opacity-30 bg-radialMarker w-[1000px] h-[2000px] top-1/2 z-1 block"></div>
+	<div class="container lg:py-40 md:py-24 py-24 relative z-10">
+		<div class="flex lg:gap-32 md:gap-4 gap-24 md:flex-row flex-col">
+			<div class="flex flex-col gap-4 w-full max-w-[450px]">
+				<h2 class="text-white font-bold text-2xl">Naše služby</h2>
+				<div class="flex flex-col gap-4 w-full text-left">
+					<button class="service-card active" data-id="1">
+						<img src="./icons/services/programovani.svg" alt="Programování" />
+						<span>Programování nové aplikace</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
+							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+						</svg>
+					</button>
+					<button class="service-card" data-id="2">
+						<img src="./icons/services/programovani.svg" alt="Programování" />
+						<span>Programování existující aplikace</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
+							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+						</svg>
+					</button>
+					<button class="service-card" data-id="3">
+						<img src="./icons/services/programovani.svg" alt="Programování" />
+						<span>Optimalizace a údržba</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
+							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+						</svg>
+					</button>
+					<button class="service-card" data-id="4">
+						<img src="./icons/services/programovani.svg" alt="Programování" />
+						<span>Optimalizace a údržba</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
+							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div class="flex-1">
+				<div class="content" data-id="1">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20  flex flex-col text-white gap-4">
+						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
+							<img src="icons/services/programovani.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
+						</div>
+						<p class="lg:text-2xl md:text-lg text-2xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<div class="flex">
+							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
+						</div>
+					</div>
+				</div>
+				<div class="content hidden" data-id="2">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20  flex flex-col text-white gap-4">
+						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
+							<img src="icons/services/programovani.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
+						</div>
+						<p class="lg:text-2xl md:text-lg text-2xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<div class="flex">
+							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="catalog-filters">
-			<a href="" class="catalog-filters-item">
-				SKLADOVE
-			</a>
-			<a href="" class="catalog-filters-item">
-				SKLADOVE
-			</a>
-			<a href="" class="catalog-filters-item">
-				SKLADOVE
-			</a>
+	</div>
+</div>
+<script src="js/script.js" async defer type="text/javascript"></script>
 
-		</div>
-		<div class="catalog-grid">
-			<div class="product-card">
-				<div class="product-label">
-					<span>-20%</span>
-				</div>
-				<a href="" class="product-image">
-					<img src="./images/auto.png" alt="auto" />
-				</a>	
-				<div class="product-content">
-					<h3><a href=''>BMW Řada 3 3,0 l</a></h3>
-					<p>BMW Řada 3 3,0 i, navi,kůže,serviska, 2008 - 200 KW Benzín - šedá metalíza</p>
-					<span class="product-price">269000,-</span>
-				</div>
-				<a href="" class="product-link">
-
-				</a>
-			</div>
-		</div>
-		<div class="catalog-more">
-			<a href="btn-default">
-				ZOBRAZIT VŠECHNY NABÍDKY
-			</a>
-		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<div class="footer-content">
-				<div class="footer-item contact">
-					<ul>
-						<li class="mail">
-							<a href="">info@autobazarextra.cz</a>
-						</li>
-						<li class="phone">
-							<a href="">(+420) 603 849 471</a>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-item location">
-					<p>
-						<b>AUTO EXTRA</b>
-						<br>
-						ul.Palackého 526
-						<br>
-						Holešov - Všetuly 769 01
-						<br>
-						E-mail: info@autobazarextra.cz
-					</p>
-				</div>
-				<div class="footer-item hours">
-					<p>
-						Po-Pá: 9:00 - 18:00 hod
-						<br>
-						So: 9:00 - 12:00
-					</p>
-				</div>
-				<div class="footer-item">
-					<div class="socials">
-						<a href="">
-							<img src="./icons/fb.svg" alt="fb" />
-						</a>
-						<a href="">
-							<img src="./icons/yt.svg" alt="yt" />
-						</a>
-						<a href="">
-							<img src="./icons/ig.svg" alt="ig" />
-						</a>
-					</div>
-					<p>Copyright © autobazarextra.cz
-						 
-						Tvorba www stránek MACHIN.cz</p>
-				</div>
-			</div>
-		</div>
-	</div>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript" src="owlcarousel/dist/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
-<script src="js/script.js" type="text/javascript"></script>
-</script>
 </html>
 
 

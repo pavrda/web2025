@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f677876-b359-4c62-8ab9-fb8578862b7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/026295f0ec6217b96d096b6765644c34.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/026295f0ec6217b96d096b6765644c34.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/04f43018bf12011bcd3e095b08ba3ea8.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/04f43018bf12011bcd3e095b08ba3ea8.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/123acc012834a3c72fabe1ac43755478.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/123acc012834a3c72fabe1ac43755478.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/1e7945d500d7724467e0724ae63ccf02.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/1e7945d500d7724467e0724ae63ccf02.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/2c3105d53f8d9dffd6e90203c4416d5f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/2c3105d53f8d9dffd6e90203c4416d5f.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/332437934e11b25f732f99a928a88a36.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/332437934e11b25f732f99a928a88a36.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/46fb5bc0343c3e427b2568a5639eda8d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/46fb5bc0343c3e427b2568a5639eda8d.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/4bfd4e27d7d019253367ca1bf6442031.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/4bfd4e27d7d019253367ca1bf6442031.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/5f1af9663daf24b953a42fd6f04b30ec.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/5f1af9663daf24b953a42fd6f04b30ec.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/772ede6c03ecf9d72909aa19961766cb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/772ede6c03ecf9d72909aa19961766cb.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/79524e64453dda046a5989225b53ebf3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/79524e64453dda046a5989225b53ebf3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/7c45408cf64ce0691c24460f38157a53.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/7c45408cf64ce0691c24460f38157a53.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/9253c2a19b8b95889f75a9ea159be232.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/9253c2a19b8b95889f75a9ea159be232.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/a0a4773e60da0dec558299094ee39ea2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/a0a4773e60da0dec558299094ee39ea2.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/a98b79f42fedde9f298c9c4ee1f9e93c.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/a98b79f42fedde9f298c9c4ee1f9e93c.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/b7a980b96df6ca3c4df2569bebde1b26.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/b7a980b96df6ca3c4df2569bebde1b26.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/bdaf2019ef67479e48182b1ff86f67ac.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/bdaf2019ef67479e48182b1ff86f67ac.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/c8cb2d277bfac54e0da3474bd1846d1d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/c8cb2d277bfac54e0da3474bd1846d1d.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/cbed29c2c4e321db707a9727e4e14b83.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/cbed29c2c4e321db707a9727e4e14b83.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ceac67e01c8acfbd2a92a5f46b84c4bb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ceac67e01c8acfbd2a92a5f46b84c4bb.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/dc15ffc0972ad12ceccc2b30548735bc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/dc15ffc0972ad12ceccc2b30548735bc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ec9a0b599ad47a3ea492cd15af917e5e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ec9a0b599ad47a3ea492cd15af917e5e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ef5696fb3003a2207126d1a763d20a86.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/ef5696fb3003a2207126d1a763d20a86.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/fa97a45b674ec894013d0618b48c3a98.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/brockman/fa97a45b674ec894013d0618b48c3a98.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/services/prevzeti.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/services/programovani.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/services/rozvoj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/services/send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hero/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/font/_brockman.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-100italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-200italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-600italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-800italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-900italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat-v25-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/fb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/ig.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/yt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/ROADMAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/ROADMAP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/dist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/dist/assets/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/dist/assets/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/dist/assets/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/dist/assets/owl.video.play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/dist/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/dist/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/bird_blue_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/bird_blue_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-drag.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-drag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-modern.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-modern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-module.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-module.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-options.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-options.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-responsive.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-responsive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-zombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/feature-zombie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/owl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/owl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/img/twitter_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/img/twitter_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/js/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/assets/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/assets/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/highlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/animate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/autoheight.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/autoheight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/autoplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/autoplay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/autowidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/autowidth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/center.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/demos.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/demos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/lazyLoad.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/lazyLoad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/merge.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/merge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/mousewheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/mousewheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/rtl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/stagepadding.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/stagepadding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/urlhashnav.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/urlhashnav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/demos/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/demos/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/api-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/api-classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/api-events.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/api-events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/api-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/api-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-buildin-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-buildin-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-external.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-external.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-plugin-api.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-plugin-api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/dev-styles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/started-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/started-faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/started-installation.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/started-installation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/started-welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/started-welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/support-changelog.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/support-changelog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/support-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/support-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/docs/support-contributing.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/docs/support-contributing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/bird_blue_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-drag.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-drag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-modern.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-modern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-module.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-module.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-options.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-options.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-responsive.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-responsive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-zombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/feature-zombie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/owl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/owl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/twitter_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/img/twitter_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/js/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/scss/highlight.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/scss/highlight.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/highlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/data/classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/data/classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/data/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/data/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/data/features.json" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/data/features.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/data/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/data/options.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/helpers/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/helpers/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/demos.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/demos.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/docs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/docs.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/layouts/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/animate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autoheight.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autoplay.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autowidth.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/basic.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/center.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/demos.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/events.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/lazyLoad.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/merge.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/mousewheel.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/responsive.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/rtl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/stagepadding.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/test.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/urlhashnav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/video.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-classes.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-events.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-options.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-external.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-styles.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-faq.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-installation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-welcome.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-changelog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-contributing.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/pages/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/head.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/head.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-carousel.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-features.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-features.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-hero.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-teaser-text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/javascripts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/sidenav-docs.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/title.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/title.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/vendors.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/docs_src/templates/partials/vendors.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/img/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/img/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/img/owl.video.play.png" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/img/owl.video.play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/.jscsrc" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/.jscsrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.autoheight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.autoplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.autoplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.autorefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.autorefresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.hash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.lazyload.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.lazyload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/js/owl.support.modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/js/owl.support.modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.carousel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.carousel.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.default.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.default.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.green.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/src/scss/owl.theme.green.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/test/unit/autoplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/test/unit/autoplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owlcarousel/test/unit/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/owlcarousel/test/unit/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/font/montserrat.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_variables.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.6/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2o6tgDtKuWjrsZPXqXDyl2I8Wbt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;inited&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jakubstellner/Desktop/projects/sablony&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons/services" />
+      <recent name="$PROJECT_DIR$/icons" />
+      <recent name="$PROJECT_DIR$/images/hero" />
+      <recent name="$PROJECT_DIR$/icons/logo" />
+      <recent name="$PROJECT_DIR$/style/font" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sablony/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f677876-b359-4c62-8ab9-fb8578862b7a" name="Changes" comment="" />
+      <created>1730201961213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730201961213</updated>
+      <workItem from="1730201962259" duration="3317000" />
+      <workItem from="1730222727829" duration="7000" />
+      <workItem from="1731078940888" duration="918000" />
+      <workItem from="1731156505314" duration="7369000" />
+      <workItem from="1732024737304" duration="7518000" />
+      <workItem from="1732608129707" duration="15067000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

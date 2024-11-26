@@ -3,6 +3,19 @@
 @import 'mixins.scss';
 
 //Fonts
-@import url('font/montserrat.scss');
+@import "font/brockman";
+
+//Components
+@import "./components/_services.scss";
+@import "./components/_header.scss";
+@import "./components/_button.scss";
+
+
 
 //Basic
+body {
+  font-family: 'Brockman', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}

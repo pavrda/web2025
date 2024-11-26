@@ -1,0 +1,151 @@
+.header {
+  padding: 2rem 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: $background;
+  &.scrolling {
+    box-shadow: 0 0 40px 5px rgba(0,0,0,0.05);
+  }
+  @media screen and (max-width: $lg) {
+    box-shadow: 0 0 40px 5px rgba(0,0,0,0.05);
+  }
+
+    &-toggle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-left: auto;
+      z-index: 10;
+      position: relative;
+
+      @media screen and (min-width: $lg) {
+      display: none;
+    }
+    span {
+      display: block;
+      border-radius: 50px;
+      height: 2px;
+      width: 100%;
+      background: white;
+      transition: 0.25s ease-in-out all;
+    }
+    &.active {
+      span:nth-child(2) {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      span:first-child {
+        transform: rotate(45deg) translate(8px, 4px);
+      }
+      span:last-child {
+        transform: rotate(-45deg) translate(9px, -5px);
+      }
+    }
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    &-logo {
+      max-width: 175px;
+      z-index: 10;
+      position: relative;
+      @media screen and (max-width: $xl) {
+        max-width: 100px;
+      }
+    }
+    &-menu {
+      margin-left: auto;
+      display: flex;
+      gap: 2rem;
+      @media screen and (max-width: $lg) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: fixed;
+        background: lightblue;
+        width: 100%;
+        left: 0;
+        padding-bottom: 2rem;
+        background: $background;
+        top: -100%;
+        transition: 0.25s ease-in-out top;
+        z-index: 5;
+        &.active {
+          top: 104px;
+        }
+      }
+      ul {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        @media screen and (max-width: $lg) {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 1.5rem;
+        }
+        li {
+          position: relative;
+          a {
+            color: white;
+            font-size: 1.063rem;
+            position: relative;
+            display: flex;
+            @media screen and (max-width: $xl) {
+              font-size: 0.75rem;
+              text-align: center;
+            }
+            @media screen and (max-width: $lg) {
+              font-size: 1rem;
+              text-align: center;
+            }
+            &:after {
+              content: "";
+              width: 0;
+              height: 1px;
+              background: linear-gradient(90deg, #ff8f20 0%, #ff3232 100%);
+              border-radius: 50px;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              transition: 0.25s ease-in all;
+            }
+            &.active, &:hover {
+              &:after {
+                width: 100%;
+                right: 0;
+              }
+            }
+          }
+          &:last-child {
+            @media screen and (min-width: $lg) {
+              &:before {
+                content: "|";
+                position: absolute;
+                left: 0;
+                transform: translateY(-50%);
+                top: 50%;
+                color: $text;
+                opacity: 0.7;
+              }
+              padding-left: 3rem;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
