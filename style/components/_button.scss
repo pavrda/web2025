@@ -2,16 +2,69 @@
   padding: 1.1rem 2.2rem;
   text-decoration: none;
   outline: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: fit-content;
+  transition: 0.5s ease-in-out box-shadow;
+
   &-primary {
     background: $blue;
     color: white;
     border-radius: 50px;
     font-size: 0.976rem;
+    box-shadow: 0 8px 25px $blueOpacity;
+    &:hover {
+      box-shadow: 0 8px 25px $blue;
+    }
     @media screen and (max-width: $xl) {
       font-size: 0.825rem;
     }
   }
   &-whatsapp {
+    background: $green;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.976rem;
+    box-shadow: 0 8px 25px $greenOpacity;
+    &:hover {
+      box-shadow: 0 8px 25px $green;
+    }
+    @media screen and (max-width: $xl) {
+      font-size: 0.825rem;
+    }
+  }
+  &-whatsapp-borderer {
+    background: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.976rem;
+    border: 1px solid $green;
+    box-shadow: 0 8px 25px $greenOpacity;
+    &:hover {
+      box-shadow: 0 8px 25px $green;
+    }
+    path {
+      fill: $green;
+    }
+    @media screen and (max-width: $xl) {
+      font-size: 0.825rem;
+    }
+  }
+  &-clear-arrow {
+    color: $blue;
+    svg {
+      path {
+        fill: $blue;
+      }
+      width: 14px;
+      transition: 0.25s ease-in-out all;
 
+    }
+    &:hover {
+      svg {
+        transform: translateX(10px);
+      }
+    }
   }
 }
