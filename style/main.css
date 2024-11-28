@@ -442,8 +442,30 @@
 .btn-whatsapp:hover {
   box-shadow: 0 8px 25px #2ace48;
 }
+.btn-whatsapp svg {
+  width: 20px;
+}
 @media screen and (max-width: 1300px) {
   .btn-whatsapp {
+    font-size: 0.825rem;
+  }
+}
+.btn-primary-borderer {
+  background: none;
+  color: white;
+  border-radius: 50px;
+  font-size: 0.976rem;
+  border: 1px solid #0187FF;
+  box-shadow: 0 8px 25px rgba(1, 135, 255, 0.1882352941);
+}
+.btn-primary-borderer:hover {
+  box-shadow: 0 8px 25px #0187FF;
+}
+.btn-primary-borderer path {
+  fill: #0187FF;
+}
+@media screen and (max-width: 1300px) {
+  .btn-primary-borderer {
     font-size: 0.825rem;
   }
 }
@@ -548,6 +570,18 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.pointer-arrow::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: white;
+  z-index: 20;
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=main.css.map */

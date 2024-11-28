@@ -20,3 +20,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.pointer-arrow::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: white;
+  z-index: 20;
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  transform: rotate(45deg);
+}

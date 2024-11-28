@@ -30,6 +30,26 @@
     &:hover {
       box-shadow: 0 8px 25px $green;
     }
+    svg {
+      width: 20px;
+    }
+    @media screen and (max-width: $xl) {
+      font-size: 0.825rem;
+    }
+  }
+  &-primary-borderer {
+    background: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.976rem;
+    border: 1px solid $blue;
+    box-shadow: 0 8px 25px $blueOpacity;
+    &:hover {
+      box-shadow: 0 8px 25px $blue;
+    }
+    path {
+      fill: $blue;
+    }
     @media screen and (max-width: $xl) {
       font-size: 0.825rem;
     }

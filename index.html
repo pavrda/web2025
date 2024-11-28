@@ -46,6 +46,16 @@
 					boxShadow: {
 						primaryButton: '0px 8px 25px #0187FF30',
 					},
+					keyframes: {
+						bounceSlow: {
+							'0%, 100%': { transform: 'translateY(-10px)' },
+							'50%': { transform: 'translateY(20px)' },
+						},
+					},
+					animation: {
+						'bounce-slow': 'bounceSlow 2s ease-in-out infinite',
+
+					},
 				}
 			}
 		}
@@ -88,7 +98,7 @@
 		</div>
 	</div>
 </header>
-<div class="bg-background relative overflow-hidden">
+<div class="bg-background relative lg:overflow-visible overflow-hidden">
 	<div class=" relative md:bg-heroMobile bg-no-repeat bg-contain bg-right relative z-10">
 		<div class="container relative lg:py-40 md:py-24 py-24 flex flex-col gap-12 items-start justify-start">
 			<div class="flex flex-col gap-6">
@@ -98,47 +108,52 @@
 				</h1>
 				<p class="text-text max-w-[450px]">Jsme silný developerský tým, který má přesah do UX a designu. Naší doménou je dodávat projektově zvládnuté řešení. Komunikujeme a programujeme.</p>
 			</div>
-			<div class="max-w-fit lg:absolute items-center justify-center gap-6 lg:bottom-20 bottom-0 cursor-pointer left-0 lg:left-1/2 lg:translate-x-1/2 flex flex-col">
+			<a href="#sluzby" class="max-w-fit lg:absolute items-center justify-center gap-6 lg:bottom-20 bottom-0 cursor-pointer left-0 lg:left-1/2 lg:translate-x-1/2 flex flex-col">
 				<span class="text-white -rotate-90">scroll</span>
 				<div class="relative translate-x-0.5">
 					<div class=" w-0.5 bg-white h-12 opacity-70"></div>
-					<div class="absolute bg-background w-6 h-6 rounded-full top-2 -left-2.5 flex  flex items-center justify-center ">
+					<div class=" animate-bounce-slow absolute bg-background w-6 h-6 rounded-full top-2 -left-2.5 flex  flex items-center justify-center ">
 						<div class="w-4 h-4 bg-background border-white border-[3px] flex rounded-full"></div>
 					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
-	<div class="absolute -left-1/2 translate-x-1/2 opacity-30 bg-radialMarker w-[1000px] h-[2000px] top-1/2 z-1 block"></div>
-	<div class="container lg:py-40 md:py-24 py-24 relative z-10">
+	<!--<div class="absolute -left-1/2 translate-x-1/2 opacity-30 bg-radialMarker w-[1000px] h-[2000px] top-1/2 z-1 block"></div>-->
+	<div class="container lg:py-40 md:py-24 py-24 relative z-10" id="sluzby">
 		<div class="flex lg:gap-32 md:gap-4 gap-24 md:flex-row flex-col">
 			<div class="flex flex-col gap-4 w-full max-w-[450px]">
 				<h2 class="text-white font-bold text-2xl">Naše služby</h2>
 				<div class="flex flex-col gap-4 w-full text-left">
 					<button class="service-card active" data-id="1">
-						<img src="./icons/services/programovani.svg" alt="Programování" />
+						<div class="w-[28px] flex items-center justify-center ">
+							<img src="./icons/services/programovani.svg" alt="Programování" />
+						</div>
 						<span>Programování nové aplikace</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
 							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
 						</svg>
 					</button>
 					<button class="service-card" data-id="2">
-						<img src="./icons/services/programovani.svg" alt="Programování" />
-						<span>Programování existující aplikace</span>
+						<div class="w-[28px] flex items-center justify-center">
+							<img src="./icons/services/prevzeti.svg" alt="Programování" />
+						</div>						<span>Programování existující aplikace</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
 							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
 						</svg>
 					</button>
 					<button class="service-card" data-id="3">
-						<img src="./icons/services/programovani.svg" alt="Programování" />
-						<span>Optimalizace a údržba</span>
+						<div class="w-[28px] flex items-center justify-center ">
+							<img src="./icons/services/rozvoj.svg" alt="Programování" />
+						</div>						<span>Optimalizace a údržba</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
 							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
 						</svg>
 					</button>
 					<button class="service-card" data-id="4">
-						<img src="./icons/services/programovani.svg" alt="Programování" />
-						<span>Optimalizace a údržba</span>
+						<div class="w-[28px] flex items-center justify-center ">
+							<img src="./icons/services/send.svg" alt="Programování" />
+						</div>						<span>Optimalizace a údržba</span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="6.687" height="11.375" viewBox="0 0 6.687 11.375">
 							<path id="arrow" d="M2,17.671l4.273,4.273,4.273-4.273" transform="translate(-16.257 11.961) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
 						</svg>
@@ -147,22 +162,44 @@
 			</div>
 			<div class="flex-1">
 				<div class="content" data-id="1">
-					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20  flex flex-col text-white gap-4">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20 md:pt-12 pt-16  flex flex-col text-white md:gap-4 gap-6">
 						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
 							<img src="icons/services/programovani.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
 						</div>
-						<p class="lg:text-2xl md:text-lg text-2xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<p class="lg:text-2xl md:text-lg text-xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
 						<div class="flex">
 							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
 						</div>
 					</div>
 				</div>
 				<div class="content hidden" data-id="2">
-					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20  flex flex-col text-white gap-4">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20 md:pt-12 pt-16  flex flex-col text-white md:gap-4 gap-6">
 						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
-							<img src="icons/services/programovani.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
+							<img src="icons/services/prevzeti.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
 						</div>
-						<p class="lg:text-2xl md:text-lg text-2xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<p class="lg:text-2xl md:text-lg text-xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<div class="flex">
+							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
+						</div>
+					</div>
+				</div>
+				<div class="content hidden" data-id="3">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20 md:pt-12 pt-16  flex flex-col text-white md:gap-4 gap-6">
+						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
+							<img src="icons/services/rozvoj.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
+						</div>
+						<p class="lg:text-2xl md:text-lg text-xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
+						<div class="flex">
+							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
+						</div>
+					</div>
+				</div>
+				<div class="content hidden" data-id="4">
+					<div class="border relative rounded-[20px] border-2 border-textOpacity lg:p-12 md:p-6 p-12 lg:pt-20 md:pt-12 pt-16  flex flex-col text-white md:gap-4 gap-6">
+						<div class="bg-gradientBlack absolute lg:-top-[58px] md:-top-[28px] -top-[40px] opacity-background rounded-2xl overflow-hidden lg:w-[116px] lg:h-[116px] md:w-[56px] md:h-[56px] w-[80px] h-[80px] flex items-center justify-center">
+							<img src="icons/services/send.svg" height="51" width="42" class="lg:w-[42px] md:w-[20px] w-[40px]"/>
+						</div>
+						<p class="lg:text-2xl md:text-lg text-xl">Umíme přebrat strádající projekt a dotáhnout ho do úspěšného konce. Nastavíme projektový plán a metodiku. Programuje a výstupy s vámi konzultujeme na pravidelné bázi.</p>
 						<div class="flex">
 							<a href="#" class="btn btn-primary whitespace-nowrap shadow-primaryButton">Vše o službě</a>
 						</div>
@@ -171,19 +208,42 @@
 			</div>
 		</div>
 	</div>
+	<div class="relative pb-32 pt-24">
+		<div class="container">
+			<div class="flex flex-col 2xl:max-w-[800px]  lg:max-w-[550px] max-w-[400px] xl:gap-12 gap-8">
+				<div class="flex items-center justify-center bg-white p-8 rounded-xl xl:w-[240px] w-[180px] relative pointer-arrow">
+					<img src="images/reference/9.png" alt="" class="xl:max-w-[100px] max-w-[75px]"/>
+				</div>
+				<p class="xl:text-4xl text-2xl text-white font-medium xl:leading-[50px]">
+					Jsme technologický garant a autor řešení aplikace Škoda Media Services pro našeho partnera agenturu LHMS
+				</p>
+				<a href="" class="btn btn-primary-borderer">Více o službě</a>
+				<div class="xl:hidden flex items-start max-w-[350px] md:hidden">
+					<img src="images/hero/mobile-solo.png" alt="mobile"/>
+				</div>
+			</div>
+		</div>
+		<!-- absolute right-0 -bottom-32 2xl:max-w-[600px] xl:max-w-[500px] xl:block max-w-[350px]  -->
+		<div class="absolute right-0 -bottom-48 xl:max-w-[700px] xl:max-w-[500px] xl:block hidden">
+			<img src="images/hero/mobile.webp" alt="mobile"/>
+		</div>
+		<div class="absolute lg:-right-0 -right-32 xl:-bottom-48 lg:-bottom-32 bottom-0 max-w-[350px] xl:hidden md:block hidden">
+			<img src="images/hero/mobile-solo.png" alt="mobile"/>
+		</div>
+	</div>
 </div>
 <div class="overflow-hidden">
-<div class="container py-24">
+<div class="container xl:pb-24 xl:pt-48 pt-24 pb-24">
 	<div class="max-w-[600px] mx-auto flex flex-col gap-12">
 		<h2 class="font-bold text-4xl text-center">Spolupracujte s námi a přidejte se do dobré společnosti</h2>
-		<div class="flex gap-4 items-center justify-center">
-			<a href="" title="" class="btn btn-primary">
+		<div class="grid md:grid-cols-2 gap-4 items-center justify-center">
+			<a href="tel:777 123 456" title="" class="btn btn-primary w-full items-center justify-center">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20.24" height="20.241" viewBox="0 0 20.24 20.241">
 					<path id="phone" d="M19.96,16.831l-2.854,2.831a2.065,2.065,0,0,1-1.523.579,13.2,13.2,0,0,1-6.544-2.466A25.242,25.242,0,0,1,1.4,9.443,10.781,10.781,0,0,1,.005,4.693,2.078,2.078,0,0,1,.584,3.149L3.438.3A.944.944,0,0,1,4.983.554l2.3,4.354a1.264,1.264,0,0,1-.258,1.437L5.97,7.4a.518.518,0,0,0-.107.3,8.963,8.963,0,0,0,2.7,3.989c1.079.99,2.239,2.331,3.744,2.649a.593.593,0,0,0,.547-.053l1.223-1.244a1.4,1.4,0,0,1,1.48-.214h.021l4.141,2.445a1,1,0,0,1,.236,1.565Z" transform="translate(0 0)" fill="#fff"/>
 				</svg>
 				<span>777 123 456</span>
 			</a>
-			<a href="" title="" class="btn btn-whatsapp">
+			<a href="mailto:" title="" class="btn btn-whatsapp w-full items-center justify-center">
 				<svg xmlns="http://www.w3.org/2000/svg" width="29.828" height="29.971" viewBox="0 0 29.828 29.971">
 					<path id="whatsapp" d="M21.834,17.96c-.371-.186-2.2-1.082-2.535-1.207s-.588-.185-.837.187-.958,1.206-1.174,1.454-.433.279-.8.093A10.194,10.194,0,0,1,13.5,16.645a11.124,11.124,0,0,1-2.064-2.572c-.216-.371-.022-.572.162-.757.167-.167.372-.433.557-.649a2.568,2.568,0,0,0,.372-.621A.678.678,0,0,0,12.5,11.4c-.093-.186-.836-2.013-1.144-2.756-.3-.723-.608-.624-.836-.637s-.474-.014-.712-.012a1.36,1.36,0,0,0-.989.465,4.163,4.163,0,0,0-1.3,3.1,7.223,7.223,0,0,0,1.515,3.839,16.554,16.554,0,0,0,6.34,5.6,20.961,20.961,0,0,0,2.115.781,5.061,5.061,0,0,0,2.336.147,3.827,3.827,0,0,0,2.505-1.764,3.08,3.08,0,0,0,.216-1.764c-.092-.155-.34-.247-.712-.433m-6.77,9.245h0a12.326,12.326,0,0,1-6.283-1.721l-.45-.267L3.651,26.445,4.9,21.889,4.6,21.422a12.344,12.344,0,1,1,10.457,5.784M25.568,4.357A14.854,14.854,0,0,0,2.193,22.275l-2.107,7.7,7.873-2.066a14.838,14.838,0,0,0,7.1,1.808h.006A14.859,14.859,0,0,0,25.568,4.355Z" transform="translate(-0.086)" fill="#fff"/>
 				</svg>
@@ -289,7 +349,7 @@
 
 </div>
 </div>
-	<div class="bg-lightBackground py-32 bg-opacity-15 overflow-hidden">
+	<div class="bg-lightBackground md:py-32 py-24 bg-opacity-15 overflow-hidden">
 	<div class="container">
 		 <div class="flex justify-between items-center mb-14">
 			 <h2 class="text-4xl font-bold">Držte s námi krok</h2>
@@ -301,6 +361,40 @@
 		<div>
 			<div class="swiper swiper-blog swiper-right">
 				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="bg-white rounded-xl overflow-hidden">
+							<div class="flex flex-col gap-4">
+								<a href="" class="overflow-hidden">
+									<img src="./images/mockup/news.png" class="hover:scale-125 transition ease-in-out"/>
+								</a>
+								<div class="py-8 flex px-10 flex-col gap-4">
+									<div class="flex flex-row gap-4 items-center">
+										<a href="" class="bg-tag rounded-full px-4 py-2 text-white text-[12px]">Mobilní aplikace</a>
+										<span class="text-text text-[12px]">5. 7. 2023</span>
+									</div>
+									<a href="" class="font-bold text-2xl hover:underline">5 tipů, jak využít umělou inteligenci v mobilní aplikaci</a>
+									<p>Pokud se 10 lidí zeptáte, jaký je největší trend v oblasti mobilních aplikací, s největší pravděpodobností vám všichni odpoví stejně – umělá inteligence. Velká popularita AI chatů nebo aplikací pro tvorbu obrázků totiž rozvoji této technologie výrazně nahrává.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="bg-white rounded-xl overflow-hidden">
+							<div class="flex flex-col gap-4">
+								<a href="" class="overflow-hidden">
+									<img src="./images/mockup/news.png" class="hover:scale-125 transition ease-in-out"/>
+								</a>
+								<div class="py-8 flex px-10 flex-col gap-4">
+									<div class="flex flex-row gap-4 items-center">
+										<a href="" class="bg-tag rounded-full px-4 py-2 text-white text-[12px]">Mobilní aplikace</a>
+										<span class="text-text text-[12px]">5. 7. 2023</span>
+									</div>
+									<a href="" class="font-bold text-2xl hover:underline">5 tipů, jak využít umělou inteligenci v mobilní aplikaci</a>
+									<p>Pokud se 10 lidí zeptáte, jaký je největší trend v oblasti mobilních aplikací, s největší pravděpodobností vám všichni odpoví stejně – umělá inteligence. Velká popularita AI chatů nebo aplikací pro tvorbu obrázků totiž rozvoji této technologie výrazně nahrává.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="swiper-slide">
 						<div class="bg-white rounded-xl overflow-hidden">
 							<div class="flex flex-col gap-4">
@@ -530,7 +624,6 @@
 <script src="js/script.js" async defer type="text/javascript"></script>
 <script type="module">
 	import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-
 	new Swiper('.swiper-blog', {
 		direction: 'horizontal',
 		loop: false,
@@ -540,6 +633,20 @@
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
 		},
+		breakpoints: {
+			320: { // for small screens
+				slidesPerView: 1,
+				spaceBetween: 10,
+			},
+			640: { // for medium screens
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			1024: { // for large screens
+				slidesPerView: 3,
+				spaceBetween: 30,
+			},
+		},
 	});
 
 	new Swiper('.swiper-logos', {
@@ -547,6 +654,20 @@
 		loop: false,
 		slidesPerView: 7,
 		spaceBetween: 40,
+		breakpoints: {
+			320: { // for small screens
+				slidesPerView: 2,
+				spaceBetween: 10,
+			},
+			640: { // for medium screens
+				slidesPerView: 4,
+				spaceBetween: 20,
+			},
+			1024: { // for large screens
+				slidesPerView: 7,
+				spaceBetween: 40,
+			},
+		},
 	});
 </script>
 </body>
