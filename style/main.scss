@@ -32,3 +32,15 @@ html {
   display: block;
   transform: rotate(45deg);
 }
+
+.pointer-arrow-black::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(183deg, #333942 0%, #3B424D 100%);
+  z-index: 20;
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  transform: rotate(45deg);
+}
