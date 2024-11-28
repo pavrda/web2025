@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f677876-b359-4c62-8ab9-fb8578862b7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/hero/mobile-solo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/mobile.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero/mobile.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/font/_brockman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/font/_brockman.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1732024737304" duration="7518000" />
       <workItem from="1732608129707" duration="15493000" />
       <workItem from="1732734665366" duration="11346000" />
-      <workItem from="1732789068443" duration="5091000" />
+      <workItem from="1732789068443" duration="5637000" />
     </task>
     <servers />
   </component>

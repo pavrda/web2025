@@ -1,9 +1,9 @@
 //Setup
-@import 'variables.scss';
-@import 'mixins.scss';
+@import './variables.scss';
+@import './mixins.scss';
 
 //Fonts
-@import "font/brockman";
+@import "./font/brockman";
 
 //Components
 @import "./components/_services.scss";
