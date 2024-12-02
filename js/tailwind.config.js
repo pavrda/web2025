@@ -19,6 +19,7 @@ tailwind.config = {
     gradientActive: "linear-gradient(199deg, #8DA1C3 0%, #B3CEFA 100%)",
     radialMarker: "radial-gradient(closest-side at 50% 50%, #4B93FF30 0%, #1D1F2230 100%)",
     heroMobile: "url('./images/hero/hero.webp')",
+    heroService: "url('./icons/services-detail/wireframe.svg')",
 },
     boxShadow: {
     primaryButton: '0px 8px 25px #0187FF30',
