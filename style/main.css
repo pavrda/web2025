@@ -704,4 +704,25 @@ html {
   background-size: contain;
 }
 
+@media screen and (min-width: 1024px) {
+  .reference-item:nth-child(even) .reference-item-image {
+    order: 1;
+    border-radius: 16px 0 0 16px;
+  }
+  .reference-item:nth-child(even) .reference-item-text {
+    order: 2;
+    border-left: none;
+    border-right: 2px solid rgba(232, 234, 238, 0.3019607843);
+    border-radius: 0 16px 16px 0px;
+  }
+  .reference-item-image {
+    order: 2;
+    display: flex;
+  }
+  .reference-item-text {
+    order: 1;
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

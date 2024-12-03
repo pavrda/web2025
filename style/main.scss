@@ -57,3 +57,29 @@ html {
     background-size: contain;
   }
 }
+
+.reference-item {
+  @media screen and (min-width: $lg) {
+    &:nth-child(even) {
+      .reference-item-image {
+        order: 1;
+        border-radius: 16px 0 0 16px;
+
+      }
+      .reference-item-text {
+        order: 2;
+        border-left: none;
+        border-right: 2px solid #e8eaee4d;
+        border-radius: 0 16px 16px 0px;
+      }
+    }
+    &-image {
+      order: 2;
+      display: flex;
+    }
+    &-text {
+      order: 1;
+      display: flex;
+    }
+  }
+}

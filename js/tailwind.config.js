@@ -8,6 +8,7 @@ tailwind.config = {
     lightBackground: "#9EA6B3",
     tag: '#B3BAC6',
     text: "#B3BAC6",
+    blueBackground: "#304352",
     borderGray: "#E8EAEE",
     backgroundGray: "#E5EAF2",
     grayBlue: "#636973",
@@ -23,7 +24,10 @@ tailwind.config = {
     heroMobile: "url('./images/hero/hero.webp')",
     heroService: "url('./icons/services-detail/wireframe.svg')",
     peopleJaroslav: "url('./images/people/jaroslav.webp')",
-},
+    peopleJana: "url('./images/people/jana.webp')",
+        check: "url('./icons/check.svg')",
+
+    },
     boxShadow: {
     primaryButton: '0px 8px 25px #0187FF30',
 },

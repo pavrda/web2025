@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f677876-b359-4c62-8ab9-fb8578862b7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/icons/faq/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/people/jaroslav.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/people/jana.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/reference/item/phone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reference.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +59,11 @@
       <recent name="$PROJECT_DIR$/images/reference" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
+      <recent name="$PROJECT_DIR$/images/people" />
+      <recent name="$PROJECT_DIR$/images/reference/item" />
       <recent name="$PROJECT_DIR$/icons/people" />
       <recent name="$PROJECT_DIR$/icons/faq" />
-      <recent name="$PROJECT_DIR$/icons" />
-      <recent name="$PROJECT_DIR$/icons/services-detail" />
-      <recent name="$PROJECT_DIR$/images/hero" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +102,7 @@
       <workItem from="1732789068443" duration="6699000" />
       <workItem from="1732804144259" duration="2823000" />
       <workItem from="1733130781676" duration="2957000" />
-      <workItem from="1733214875642" duration="7036000" />
+      <workItem from="1733214875642" duration="15002000" />
     </task>
     <servers />
   </component>
