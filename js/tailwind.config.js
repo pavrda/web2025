@@ -8,6 +8,8 @@ tailwind.config = {
     lightBackground: "#9EA6B3",
     tag: '#B3BAC6',
     text: "#B3BAC6",
+    borderGray: "#E8EAEE",
+    backgroundGray: "#E5EAF2",
     grayBlue: "#636973",
     textOpacity: "rgba(179,186,198,0.3)",
     background: "#1D1F22",
@@ -20,6 +22,7 @@ tailwind.config = {
     radialMarker: "radial-gradient(closest-side at 50% 50%, #4B93FF30 0%, #1D1F2230 100%)",
     heroMobile: "url('./images/hero/hero.webp')",
     heroService: "url('./icons/services-detail/wireframe.svg')",
+    peopleJaroslav: "url('./images/people/jaroslav.webp')",
 },
     boxShadow: {
     primaryButton: '0px 8px 25px #0187FF30',

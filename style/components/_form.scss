@@ -1,7 +1,10 @@
 .form-control {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
   input {
-    background: transparent linear-gradient(180deg, #DEE6F2 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     border-radius: 120px;
     font-size: 1rem;
     color: $grayBlue;
@@ -9,6 +12,25 @@
     outline: none;
     border: 2px solid transparent;
     width: 100%;
+    background: #e5eaf2;
+  }
+  textarea {
+    border-radius: 20px;
+    font-size: 1rem;
+    color: $grayBlue;
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: 2px solid transparent;
+    width: 100%;
+    background: #e5eaf2;
+  }
+  label {
+    color: $grayBlue;
+  }
+  &.newsletter {
+    input {
+      background: transparent linear-gradient(180deg, #DEE6F2 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    }
   }
   small {
     opacity: 0;

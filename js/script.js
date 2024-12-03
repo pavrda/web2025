@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
+
+function handleServiceCard() {
     document.querySelectorAll('.service-card').forEach(button => {
         button.addEventListener('click', () => {
             const id = button.getAttribute('data-id');
@@ -15,7 +16,20 @@ document.addEventListener('DOMContentLoaded', () => {
             contentActive.classList.remove('hidden');
         });
     });
+}
 
+function handleFaqCard() {
+    document.querySelectorAll('.faq-card').forEach(button => {
+        button.addEventListener('click', () => {
+            document.querySelectorAll('.faq-card').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            button.classList.add('active');
+        })
+    })
+}
+
+function handleHeader() {
     const header = document.querySelector(".header");
 
     window.addEventListener("scroll", () => {
@@ -34,5 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
         toggleHeader.classList.toggle("active");
 
     })
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    handleServiceCard();
+    handleFaqCard();
+    handleHeader();
 
 });
