@@ -623,6 +623,35 @@
   transform: translateX(10px);
 }
 
+.tag {
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  border: 2px solid rgba(1, 135, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tag span:first-child {
+  font-size: 12px;
+}
+.tag span.tag-count {
+  font-size: 10px;
+  background: #B3BAC6;
+  display: flex;
+  padding: 2px 6px;
+  color: white;
+  border-radius: 50px;
+}
+.tag:hover {
+  background: rgba(1, 135, 255, 0.1882352941);
+}
+.tag.active {
+  background: #0187FF;
+  color: white;
+  border-color: #0187FF;
+}
+
 .form-control {
   position: relative;
   display: flex;
@@ -775,6 +804,51 @@
   height: 32px;
   background: url("./../../icons/check.svg");
   display: block;
+}
+
+.pagination ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.pagination ul li a {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s ease-in-out all;
+  display: block;
+}
+.pagination ul li a.active {
+  color: #0187FF;
+}
+.pagination ul li a:hover {
+  transform: translateY(-3px);
+}
+.pagination ul li:first-child a svg {
+  transform: rotate(180deg);
+}
+.pagination ul li:first-child a, .pagination ul li:last-child a {
+  box-shadow: 0px 6px 20px rgba(29, 31, 34, 0.1215686275);
+  width: 67px;
+  height: 67px;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination ul li:first-child a svg, .pagination ul li:last-child a svg {
+  width: 16px;
+}
+.pagination ul li:first-child a svg path, .pagination ul li:last-child a svg path {
+  fill: #0187FF;
+}
+.pagination ul li:first-child a.disabled, .pagination ul li:last-child a.disabled {
+  background: rgba(190, 200, 216, 0.25);
+}
+.pagination ul li:first-child a.disabled svg path, .pagination ul li:last-child a.disabled svg path {
+  fill: #9ea6b3;
 }
 
 body {

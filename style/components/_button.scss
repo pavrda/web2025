@@ -111,3 +111,34 @@
     }
   }
 }
+
+.tag {
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+  border: 2px solid rgba(1, 135, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  span {
+    &:first-child {
+      font-size: 12px;
+    }
+    &.tag-count {
+      font-size: 10px;
+      background: $text;
+      display: flex;
+      padding: 2px 6px;
+      color: white;
+      border-radius: 50px;
+    }
+  }
+  &:hover {
+    background: $blueOpacity;
+  }
+  &.active {
+    background: $blue;
+    color: white;
+    border-color: $blue;
+  }
+}
