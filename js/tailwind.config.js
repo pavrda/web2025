@@ -5,11 +5,13 @@ tailwind.config = {
     colors: {
     green: '#da373d',
     blue: '#0187FF',
+    orange: "#F0953F",
     lightBackground: "#9EA6B3",
     tag: '#B3BAC6',
     text: "#B3BAC6",
     blueBackground: "#304352",
     borderGray: "#E8EAEE",
+    backgroundGrayLight: "#F1F2F4",
     backgroundGray: "#E5EAF2",
     grayBlue: "#636973",
     textOpacity: "rgba(179,186,198,0.3)",

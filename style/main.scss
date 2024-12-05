@@ -1,6 +1,7 @@
 //Setup
 @import './variables.scss';
 @import './mixins.scss';
+@import './animations.scss';
 
 //Fonts
 @import "./font/brockman";
@@ -11,6 +12,7 @@
 @import "./components/_button.scss";
 @import "./components/_form.scss";
 @import "./components/_swiper.scss";
+@import "./components/_table.scss";
 
 
 //Basic
@@ -44,10 +46,18 @@ html {
   display: block;
   transform: rotate(45deg);
 }
+
+.breadcrumb-arrow-container {
+  flex-wrap: wrap;
+}
+
 .breadcrumb-arrow-container li {
   display: flex;
   align-items: center;
   gap: 1rem;
+  @media screen and (max-width: $lg) {
+    font-size: 13px;
+  }
   &:not(&:last-child):after {
     content: "";
     width: 6px;
@@ -81,5 +91,12 @@ html {
       order: 1;
       display: flex;
     }
+  }
+}
+
+.md-left-inherit {
+  @media screen and (min-width: $md) {
+    left: unset!important;
+
   }
 }

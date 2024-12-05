@@ -16,6 +16,15 @@
     justify-content: center;
     top: 200px;
 
+    &.stay {
+      position: unset;
+      margin: 0;
+      @media screen and (max-width: $md) {
+        width: 45px;
+        height: 45px;
+      }
+    }
+
     svg {
       width: 18px;
       path {
@@ -33,6 +42,17 @@
   }
 }
 
-.swiper-slide-next + div + div {
+.swiper-right .swiper-slide-next + div + div {
   opacity: 0.4;
+}
+
+.swiper-mobile {
+  .swiper-slide img {
+    margin: auto;
+    max-height: 700px;
+    @media screen and (max-height: $md) {
+      max-height: 400px;
+      
+    }
+  }
 }

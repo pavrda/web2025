@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f677876-b359-4c62-8ab9-fb8578862b7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/icons/check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/people/jana.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reference/item/phone1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reference-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/components/_table.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/components/_swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/components/_swiper.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
@@ -42,7 +44,7 @@
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "inited",
-    "last_opened_file_path": "/Users/jakubstellner/Desktop/projects/sablony/images",
+    "last_opened_file_path": "/Users/jakubstellner/Desktop/projects/sablony",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,16 +56,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/images/reference" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/reference-detail" />
       <recent name="$PROJECT_DIR$/icons" />
+      <recent name="$PROJECT_DIR$/images/reference" />
       <recent name="$PROJECT_DIR$/images/people" />
       <recent name="$PROJECT_DIR$/images/reference/item" />
-      <recent name="$PROJECT_DIR$/icons/people" />
-      <recent name="$PROJECT_DIR$/icons/faq" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,7 +104,8 @@
       <workItem from="1732789068443" duration="6699000" />
       <workItem from="1732804144259" duration="2823000" />
       <workItem from="1733130781676" duration="2957000" />
-      <workItem from="1733214875642" duration="15002000" />
+      <workItem from="1733214875642" duration="15972000" />
+      <workItem from="1733406037303" duration="9690000" />
     </task>
     <servers />
   </component>
