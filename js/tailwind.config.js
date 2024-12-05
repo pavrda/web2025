@@ -31,8 +31,9 @@ tailwind.config = {
 
     },
     boxShadow: {
-    primaryButton: '0px 8px 25px #0187FF30',
-},
+        primaryButton: '0px 8px 25px #0187FF30',
+        card: "0px 12px 50px #1D1F221A;"
+    },
     keyframes: {
     bounceSlow: {
     '0%, 100%': { transform: 'translateY(-10px)' },

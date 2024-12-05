@@ -491,6 +491,20 @@
     opacity: 0.7;
   }
 }
+.header.light {
+  background: white;
+}
+.header.light .header-content-menu li a {
+  color: black;
+}
+.header.light .header-toggle span {
+  background: black;
+}
+@media screen and (max-width: 1024px) {
+  .header.light .header-content-menu {
+    background: white;
+  }
+}
 
 .btn {
   padding: 1.1rem 2.2rem;

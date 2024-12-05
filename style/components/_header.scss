@@ -149,4 +149,26 @@
       }
     }
   }
+  &.light {
+    background: white;
+
+    .header-content-menu {
+      li {
+        a {
+          color: black;
+        }
+      }
+    }
+    .header-toggle {
+      span {
+        background: black;
+      }
+    }
+    @media screen and (max-width: $lg) {
+      .header-content-menu {
+        background: white;
+      }
+    }
+
+  }
 }
