@@ -246,6 +246,7 @@
   border-radius: 16px;
   overflow: hidden;
   width: 100%;
+  text-align: left;
 }
 .service-card.active:after, .service-card:hover:after {
   content: "";
