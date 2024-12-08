@@ -49,4 +49,9 @@
       opacity: 1;
     }
   }
+  &.dark {
+    label {
+      color: $text;
+    }
+  }
 }

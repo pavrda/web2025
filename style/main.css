@@ -701,6 +701,9 @@
 .form-control.error small {
   opacity: 1;
 }
+.form-control.dark label {
+  color: #B3BAC6;
+}
 
 .swiper-right {
   clip-path: inset(-100vw -100vw -100vw -17px);
